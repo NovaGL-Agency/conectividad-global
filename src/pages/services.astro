@@ -3,6 +3,7 @@ import Layout from '../layouts/Layout.astro';
 import Contact from "../components/shared/Contact.astro";
 import Footer from "../components/shared/Footer.astro";
 import FAQ from "../components/info/faq/FAQ.astro";
+import Navbar from "../components/shared/Navbar.astro"
 import Header from "../components/services/hero/Header.astro";
 import Quality from "../components/services/quality/Quality.astro";
 import Company from "../components/services/company/Company.astro";
@@ -20,10 +21,12 @@ const links = [
 
 <Layout title="Conectividad Global">
 	<main>
-		<Header />
+		<Navbar />
+		<!--<Header /> -->
 		<!--<Quality /> -->
-		<Company />
 		<ServiceSection />
+		<Company />
+		
 		<!-- <Testimonials />-->
 		<FAQ />
 		<Contact />

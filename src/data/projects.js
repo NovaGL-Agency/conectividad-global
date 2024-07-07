@@ -2,8 +2,8 @@ const projects = [
     {
         index: "01",
         image: "https://i.imgur.com/qlEQMum.png",
-        name: "Colegio Rochester - Contenido en la revista semana",
-        description: "Junto con el Colegio Rochester diseñamos una estrategia en colaboración con Revista Semana parainformar a padres de familia sobre la innovación pedagígica del colegio. ",
+        name: "Colegio Rochester - Contenido en la Revista Semana",
+        description: "Junto con el Colegio Rochester diseñamos una estrategia en colaboración con Revista Semana para informar a padres de familia sobre la innovación pedagígica del colegio. ",
         features: [
             {
                 icon: `<svg width="24" height="25" viewBox="0 0 24 25" fill="none"><path d="M3 13.625C3 13.0037 3.50368 12.5 4.125 12.5H6.375C6.99632 12.5 7.5 13.0037 7.5 13.625V20.375C7.5 20.9963 6.99632 21.5 6.375 21.5H4.125C3.50368 21.5 3 20.9963 3 20.375V13.625Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M9.75 9.125C9.75 8.50368 10.2537 8 10.875 8H13.125C13.7463 8 14.25 8.50368 14.25 9.125V20.375C14.25 20.9963 13.7463 21.5 13.125 21.5H10.875C10.2537 21.5 9.75 20.9963 9.75 20.375V9.125Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M16.5 4.625C16.5 4.00368 17.0037 3.5 17.625 3.5H19.875C20.4963 3.5 21 4.00368 21 4.625V20.375C21 20.9963 20.4963 21.5 19.875 21.5H17.625C17.0037 21.5 16.5 20.9963 16.5 20.375V4.625Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>`,
@@ -63,8 +63,8 @@ const projects = [
                 ],
             }
         ],
-        satisfaction: "700.000",
-        scope: "150.000",
+        satisfaction: "700.000 vistas",
+        scope: "150.000 impresiones",
         roi: "2.500 clics/ interacciones",
         comments: "Estamos muy contentos con el resultado del proyecto dado que se entregó en tiempo y forma. Adicionalmente, el equipo de trabajo fue muy profesional y atento a nuestras necesidades.",
     },
@@ -132,7 +132,7 @@ const projects = [
                 ],
             }
         ],
-        satisfaction: "1.17MM",
+        satisfaction: "1.17MM lectores",
         scope: "N/A",
         roi: "N/A",
         comments: "Estamos muy contentos con el resultado del proyecto dado que se entregó en tiempo y forma. Adicionalmente, el equipo de trabajo fue muy profesional y atento a nuestras necesidades.",
@@ -272,7 +272,7 @@ const projects = [
                 ],
             }
         ],
-        satisfaction: "75.000",
+        satisfaction: "75.000 lectores",
         scope: "N/A",
         roi: "100.000 impresiones",
         comments: "Estamos muy contentos con el resultado del proyecto dado que se entregó en tiempo y forma. Adicionalmente, el equipo de trabajo fue muy profesional y atento a nuestras necesidades.",

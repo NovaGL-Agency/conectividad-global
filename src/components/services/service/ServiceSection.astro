@@ -45,14 +45,14 @@ const accordionItems = [
         image: 'https://i.imgur.com/VLi8Lwi.jpg'
     },
     {
-        title: 'Diseño e innovación',
-        content: 'Creamos conceptos visualmente impactante y altamente creativo, que destaquen la identidad de tu marca. Estrategicamente destamos los contendidos, para que tengan algo mas que contar, que les genere valor a todos los niveles de la corporación.',
+        title: 'Marketing de Redes Sociales',
+        content: 'Diseñamos estrategias de redes sociales de acuerdo a los objetivos de tu empresa, combinando la creatividad con el análisis de datos para maximizar tus resultados. Realizamos desde la gestión integral de cuentas, hasta la optimización de publicidad pagada y la generación de tableros de rendimiento, asegurando que cada acción contribuya a tu éxito en el mundo digital.',
         features: [
-            'Creatividad Visual Impactante',
-            'Contenido Estratégicamente Destacado',
-            'Innovación Constante'
+            'Resultados Medibles',
+            'Audiencia Segmentada',
+            'Interacción directa con la audiencia'
         ],
-        image: 'https://i.imgur.com/p4R2OHK.jpg'
+        image: 'https://i.imgur.com/MbeVhRU.png'
     }
 ];
 ---
@@ -74,10 +74,9 @@ const accordionItems = [
 </section>
 
 <style>
-    .service
-    {
+    .service {
         height: 180vh;
-        padding: 70px 100px;
+        padding: 0 100px 70px 100px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -85,8 +84,7 @@ const accordionItems = [
         gap: 50px;
     }
 
-    .service-top
-    {
+    .service-top {
         display: flex;
         align-items: flex-end;
         justify-content: flex-end;
@@ -94,51 +92,42 @@ const accordionItems = [
     }
 
     .service-top-title,
-    .service-top p
-    {
+    .service-top p {
         flex-basis: 50%;
     }
 
-    .service-top-title h4
-    {
+    .service-top-title h4 {
         color: #8493B6;
         font-size: 28px;
     }
 
-    .service-top-title h2
-    {
+    .service-top-title h2 {
         font-size: 40px;
         font-weight: 700;
         color: #142133;
     }
 
-    @media screen and (max-width: 768px)
-    {
-        .service
-        {
-            padding: 70px 20px;
+    @media screen and (max-width: 768px) {
+        .service {
+            padding: 0 20px 70px 20px;
             height: auto;
         }
 
-        .service-top
-        {
+        .service-top {
             flex-direction: column;
             gap: 20px;
         }
 
         .service-top-title,
-        .service-top p
-        {
+        .service-top p {
             flex-basis: 100%;
         }
 
-        .service-top-title h2
-        {
+        .service-top-title h2 {
             font-size: 30px;
         }
 
-        .service-top p
-        {
+        .service-top p {
             font-size: 14px;
         }
     }
