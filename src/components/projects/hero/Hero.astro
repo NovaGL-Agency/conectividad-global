@@ -1,5 +1,5 @@
 ---
-import PopupButton from "../../react-components/PopupButton";
+import Button from "../../shared/Button.astro";
 ---
 
 <div class="hero">
@@ -8,7 +8,13 @@ import PopupButton from "../../react-components/PopupButton";
         <p>
             Diseñamos experiencias 360 de marketing que trascienden la mera transmisión de un mensaje, ya que comprendemos que el éxito de una campaña no solo reside en la calidad del contenido, sino en la diversidad y eficacia de los canales utilizados para su difusión. 
         </p>
-        <PopupButton client:visible/>
+        <Button
+                text="¡Reserva tu Cita!"
+                color="dark"
+                link="#contact"
+        >
+            
+        </Button>
     </div>
     <!--
     <div class="hero-bottom">
